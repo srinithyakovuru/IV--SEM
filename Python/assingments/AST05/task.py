@@ -1,5 +1,5 @@
 
-def collatz_sequence(n: int) -> list:
+def Collatz_Sequence(n: int) -> list:
     sequence = []
     while n != 1:
         sequence.append(n)
@@ -11,4 +11,4 @@ def collatz_sequence(n: int) -> list:
     return sequence
 if __name__ == "__main__":
     n=int(input())
-    print(collatz_sequence(n))
+    print(Collatz_Sequence(n))
